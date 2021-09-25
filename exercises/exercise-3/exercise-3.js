@@ -12,6 +12,7 @@ let order = [
 
 function allOrders(orders) {
   let total = 0;
+  console.log("QTY  ITEM            TOTAL");
   
   orders.forEach(function(getOrder) {
     orderTotal(getOrder);
@@ -24,7 +25,7 @@ function allOrders(orders) {
 
 function orderTotal({quantity, itemName, unitPrice}){
   console.log(
-    `${quantity}  ${itemName}     ${(quantity * unitPrice).toFixed(2)}`
+    `${quantity}    ${itemName}          ${(quantity * unitPrice).toFixed(2)}`
   );
 }
 
