@@ -9,9 +9,9 @@ Take a look at the following code:
 2    function f1()
 3    {
 4        let x = 2;
-5        console.log(x);
+5        console.log(x); - This is out putting the local let x
 6    }
-7    console.log(x);
+7    console.log(x); - This is out putting the global let x 
 ```
 
 Explain why line 4 and line 6 output different numbers.
@@ -34,6 +34,8 @@ console.log(y)
 ```
 
 What will be the output of this code. Explain your answer in 50 words or less.
+
+32 will be undefined as its an empty call back, line  
 
 ## Question 3
 
